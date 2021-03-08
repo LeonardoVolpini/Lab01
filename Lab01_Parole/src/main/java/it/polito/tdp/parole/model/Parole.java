@@ -24,5 +24,9 @@ public class Parole {
 		//elimina tutte le parole
 		this.parole.clear();
 	}
+	
+	public void cancellaParola(String p) {
+		this.parole.remove(p);
+	}
 
 }
