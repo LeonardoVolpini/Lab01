@@ -15,12 +15,14 @@ public class Parole {
 	}
 	
 	public List<String> getElenco() {
-		//TODO
-		return null;
+		List<String> temp= new ArrayList<String>(this.parole);
+		Collections.sort(temp);
+		return temp;
 	}
 	
 	public void reset() {
-		// TODO
+		//elimina tutte le parole
+		this.parole.clear();
 	}
 
 }
