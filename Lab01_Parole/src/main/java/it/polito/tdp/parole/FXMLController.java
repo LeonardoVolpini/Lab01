@@ -47,7 +47,7 @@ public class FXMLController {
     	this.txtResult.setText(ris);
     	long tempoF= System.nanoTime();
     	long diff= tempoF-tempoI;
-    	this.txtTempi.setText(""+diff);
+    	this.txtTempi.setText("Il tempo impiegato e': "+diff);
     }
 
     @FXML
@@ -64,7 +64,7 @@ public class FXMLController {
     	this.txtParola.setText("");
     	long tempoF= System.nanoTime();
     	long diff= tempoF-tempoI;
-    	this.txtTempi.setText(""+diff);
+    	this.txtTempi.setText("Il tempo impiegato e': "+diff);
     }
 
     @FXML
@@ -75,7 +75,7 @@ public class FXMLController {
     	this.txtResult.setText("");
     	long tempoF= System.nanoTime();
     	long diff= tempoF-tempoI;
-    	this.txtTempi.setText(""+diff);
+    	this.txtTempi.setText("Il tempo impiegato e': "+diff);
     }
 
     @FXML
